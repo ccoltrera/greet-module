@@ -1,5 +1,6 @@
 var greet = require("./lib/greetMod").greet;
 
-greet = greet(process.argv[2]);
+greet = greet(process.argv);
 
-console.log(greet);
+//console.log(greet);
+console.log(process.argv);
